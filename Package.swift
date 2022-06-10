@@ -7,6 +7,7 @@ let package = Package(
         .iOS(.v10),
         .macOS(.v10_13),
         .tvOS(.v10)
+        .watchOS(.v3)
     ],
     products: [
         .library(name: "SwiftyBluetooth", targets: ["SwiftyBluetooth"])
